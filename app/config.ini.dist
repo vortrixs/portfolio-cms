@@ -1,0 +1,26 @@
+[db]
+; [Database connection info]
+; Host
+host = 
+; Username
+username = 
+; Password
+password = 
+; Database
+database = 
+
+[cookie]
+; [Cookie info]
+; Used for 'remember me' login function
+; Name
+name = hash
+; Expiry
+expiry = 604800
+
+[session]
+; [Session info]
+; Session name
+session_name = user
+; Token name
+; Used for the Token class in libs/Token.php
+token_name = token
